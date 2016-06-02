@@ -39,3 +39,8 @@ spListItem.read(listName, options)
 spListItem.update(listName, id, data, options)
 spListItem.delete(listName, id, options)
 ```
+
+##### Create
+##### Read
+##### Update
+##### Delete
