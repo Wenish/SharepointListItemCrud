@@ -53,7 +53,7 @@ var data = {
     Title': "new List Item"
 }
 
-//In the options u can define a success and error Callback (not required)
+//In the options u can define a success callback and error callback (not required)
 var options = {
     successCallback: function (data) {
      console.log(data)
@@ -67,5 +67,24 @@ var options = {
 spListItem.create(listName, data, options)
 ```
 ##### Read
+```
+//Sharepoint List Name (required)
+var listName = 'List1'
+
+
+//In the options u can define a query, success callback and error callback (not required)
+var options = {
+    query: '?$select=Title'
+    successCallback: function (data) {
+     console.log(data)
+    },
+    errorCallback: function (err) {
+        console.log(JSON.stringify(err))
+    }
+}
+
+//REST Call
+spListItem.read(listName, options)
+```
 ##### Update
 ##### Delete
