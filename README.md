@@ -22,7 +22,7 @@ The Body of ur HTML file should look something like this:
     <script src="/_layouts/15/sp.runtime.js"></script>
     <script src="/_layouts/15/sp.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="SharepointListItemCrud.js"></script>
+    <script src="sharepointListItemCrud.js"></script>
 </body>
 ```
 ### Usage
