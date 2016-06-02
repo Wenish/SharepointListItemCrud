@@ -1,4 +1,4 @@
-## SharepointListItemCrud
+## Sharepoint 2013 REST API List Item Crud
 A Sharepoint 2013 Rest API CRUD Class for JavaScript.
 
 ### Dependency
