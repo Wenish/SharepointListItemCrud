@@ -87,4 +87,52 @@ var options = {
 spListItem.read(listName, options)
 ```
 ##### Update
+```
+//Sharepoint List Name (required)
+var listName = 'List1'
+
+//The id of the item u want to update
+var id = 1
+
+//Your Metadata object (required)
+var data = {
+    '__metadata': {
+        'type': 'SP.Data.List1ListItem'
+    },
+    Title': "updated List Item"
+}
+
+//In the options u can define a success callback and error callback (not required)
+var options = {
+    successCallback: function (data) {
+     console.log(data)
+    },
+    errorCallback: function (err) {
+        console.log(JSON.stringify(err))
+    }
+}
+
+//REST Call
+spListItem.update(listName, id, data, options)
+```
 ##### Delete
+```
+//Sharepoint List Name (required)
+var listName = 'List1'
+
+//The id of the item u want to delete
+var id = 1
+
+//In the options u can define a success callback and error callback (not required)
+var options = {
+    successCallback: function (data) {
+     console.log(data)
+    },
+    errorCallback: function (err) {
+        console.log(JSON.stringify(err))
+    }
+}
+
+//REST Call
+spListItem.delete(listName, id, options)
+```
