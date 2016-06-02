@@ -45,7 +45,7 @@ spListItem.delete(listName, id, options)
 //Sharepoint List Name (required)
 var listName = 'List1'
 
-//Your Metadata object (required)
+//Ur Metadata object (required)
 var data = {
     '__metadata': {
         'type': 'SP.Data.List1ListItem'
