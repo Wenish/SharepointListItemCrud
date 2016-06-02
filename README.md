@@ -1,5 +1,5 @@
 ## SharepointListItemCrud
-A Sharepoint 2013 Rest API CRUD Class
+A Sharepoint 2013 Rest API CRUD Class for JavaScript.
 
 ### Dependency
 It depends on you jQuery
