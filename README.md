@@ -6,7 +6,7 @@ It depends on you jQuery
 
 At the bottom of your HTML you should have something like this:
 
-<!-- jQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<!-- SharepointListItemCrud Class -->
-<script type="text/javascript" src="https://raw.githubusercontent.com/Wenish/SharepointListItemCrud/master/SharepointListItemCrud.js"></script>
+&lt;!-- jQuery --&gt;
+&lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;
+&lt;!-- SharepointListItemCrud Class --&gt;
+&lt;script type="text/javascript" src="https://raw.githubusercontent.com/Wenish/SharepointListItemCrud/master/SharepointListItemCrud.js"&gt;&lt;/script&gt;
