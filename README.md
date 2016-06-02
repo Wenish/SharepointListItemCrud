@@ -23,5 +23,5 @@ Now u have access to 4 functions:
 spListItem.create(listName, data, options)
 spListItem.read(listName, options)
 spListItem.update(listName, id, data, options)
-spListItem.deletelistName(listName, id, options)
+spListItem.delete(listName, id, options)
 ```
