@@ -63,7 +63,7 @@ var options = {
     }
 }
 
-//REST Call
+//Create REST Call
 spListItem.create(listName, data, options)
 ```
 ##### Read
@@ -83,7 +83,7 @@ var options = {
     }
 }
 
-//REST Call
+//Read REST Call
 spListItem.read(listName, options)
 ```
 ##### Update
@@ -94,7 +94,7 @@ var listName = 'List1'
 //The id of the item u want to update
 var id = 1
 
-//Your Metadata object (required)
+//Ur metadata object (required)
 var data = {
     '__metadata': {
         'type': 'SP.Data.List1ListItem'
@@ -112,7 +112,7 @@ var options = {
     }
 }
 
-//REST Call
+//Update REST Call
 spListItem.update(listName, id, data, options)
 ```
 ##### Delete
@@ -133,6 +133,6 @@ var options = {
     }
 }
 
-//REST Call
+//Delete REST Call
 spListItem.delete(listName, id, options)
 ```
