@@ -19,7 +19,9 @@ var spListItemCrud = new SharepointListItemCrud()
 ```
 
 Now u have access to 4 functions:
-- spListItemCrud.create(listName, data, options)
-- spListItemCrud.read(listName, id, options)
-- spListItemCrud.update(listName, options)
-- spListItemCrud.deletelistName(listName, id, data, options)
+```
+spListItemCrud.create(listName, data, options)
+spListItemCrud.read(listName, id, options)
+spListItemCrud.update(listName, options)
+spListItemCrud.deletelistName(listName, id, data, options)
+```
