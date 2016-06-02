@@ -14,12 +14,12 @@ The Body of ur HTML file should look something like this:
         <SharePoint:FormDigest ID="FormDigest1" runat="server"></SharePoint:FormDigest>
     </form>
 
-    <script type="text/javascript" src="/_layouts/15/core.js"></script>
-    <script type="text/javascript" src="/_layouts/1033/init.js"></script>
-    <script type="text/javascript" src="/_layouts/15/MicrosoftAjax.js"></script>
-    <script type="text/javascript" src="/_layouts/15/sp.core.js"></script>
-    <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
-    <script type="text/javascript" src="/_layouts/15/sp.js"></script>
+    <script src="/_layouts/15/core.js"></script>
+    <script src="/_layouts/1033/init.js"></script>
+    <script src="/_layouts/15/MicrosoftAjax.js"></script>
+    <script src="/_layouts/15/sp.core.js"></script>
+    <script src="/_layouts/15/sp.runtime.js"></script>
+    <script src="/_layouts/15/sp.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="SharepointListItemCrud.js"></script>
 </body>
