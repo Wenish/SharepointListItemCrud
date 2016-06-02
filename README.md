@@ -136,3 +136,5 @@ var options = {
 //Delete REST Call
 spListItem.delete(listName, id, options)
 ```
+## License
+MIT: http://rem.mit-license.org
