@@ -14,6 +14,7 @@ The Body of ur HTML file should look something like this:
         <SharePoint:FormDigest ID="FormDigest1" runat="server"></SharePoint:FormDigest>
     </form>
 
+    <!-- Scripts -->
     <script src="/_layouts/15/core.js"></script>
     <script src="/_layouts/1033/init.js"></script>
     <script src="/_layouts/15/MicrosoftAjax.js"></script>
