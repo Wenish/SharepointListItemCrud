@@ -15,13 +15,13 @@ At the bottom of your HTML file you should have something like this:
 
 First u need to create a new SharepointListItemCrud object.
 ```
-var spListItemCrud = new SharepointListItemCrud()
+var spListItem = new SharepointListItemCrud()
 ```
 
 Now u have access to 4 functions:
 ```
-spListItemCrud.create(listName, data, options)
-spListItemCrud.read(listName, id, options)
-spListItemCrud.update(listName, options)
-spListItemCrud.deletelistName(listName, id, data, options)
+spListItem.create(listName, data, options)
+spListItem.read(listName, id, options)
+spListItem.update(listName, options)
+spListItem.deletelistName(listName, id, data, options)
 ```
