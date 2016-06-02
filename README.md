@@ -42,9 +42,10 @@ spListItem.delete(listName, id, options)
 
 ##### Create
 ```
-//Sharepoint List Name
+//Sharepoint List Name (required)
 var listName = 'List1'
-//Your Metadata object
+
+//Your Metadata object (required)
 var data = {
     '__metadata': {
         'type': 'SP.Data.List1ListItem'
@@ -52,20 +53,17 @@ var data = {
     Title': "new List Item"
 }
 
-//Success Callback
-function success (data) {
-    console.log(data)
-}
-
-//Error Callback
-function error (err) {
-    console.log(JSON.stringify(err))
-}
-
+//In the options u can define a success and error Callback (not required)
 var options = {
-successCallback: success,
-errorCallback: error
+    successCallback: function (data) {
+     console.log(data)
+    },
+    errorCallback: function (err) {
+        console.log(JSON.stringify(err))
+    }
 }
+
+//REST Call
 spListItem.create(listName, data, options)
 ```
 ##### Read
