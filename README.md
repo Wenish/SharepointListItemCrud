@@ -13,3 +13,7 @@ At the bottom of your HTML file you should have something like this:
 ```
 ### Usage
 
+First u need to create a new SharepointListItemCrud object.
+```
+var spListItemCrud = new SharepointListItemCrud()
+```
