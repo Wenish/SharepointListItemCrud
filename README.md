@@ -50,7 +50,7 @@ var data = {
     '__metadata': {
         'type': 'SP.Data.List1ListItem'
     },
-    Title': "new List Item"
+    Title: "new List Item"
 }
 
 //In the options u can define a success callback and error callback (not required)
@@ -99,7 +99,7 @@ var data = {
     '__metadata': {
         'type': 'SP.Data.List1ListItem'
     },
-    Title': "updated List Item"
+    Title: "updated List Item"
 }
 
 //In the options u can define a success callback and error callback (not required)
