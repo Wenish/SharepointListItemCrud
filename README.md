@@ -74,7 +74,7 @@ var listName = 'List1'
 
 //In the options u can define a query, success callback and error callback (not required)
 var options = {
-    query: '?$select=Title'
+    query: '?$select=Title',
     successCallback: function (data) {
      console.log(data)
     },
