@@ -29,15 +29,16 @@ The body of ur HTML file should look something like this:
 
 First u need to create a new SharepointListItemCrud object.
 ```
-var spListItem = new SharepointListItemCrud()
+var myApp = myApp || {}
+var myApp.crud = new SharepointListItemCrud()
 ```
 
 Now u have access to 4 functions:
 ```
-spListItem.create(listName, data, options)
-spListItem.read(listName, options)
-spListItem.update(listName, id, data, options)
-spListItem.delete(listName, id, options)
+myApp.crud.create(listName, data, options)
+myApp.crud.read(listName, options)
+myApp.crud.update(listName, id, data, options)
+myApp.crud.delete(listName, id, options)
 ```
 
 ##### Create
@@ -64,7 +65,7 @@ var options = {
 }
 
 //Create REST Call
-spListItem.create(listName, data, options)
+myApp.crud.create(listName, data, options)
 ```
 ##### Read
 ```
@@ -84,7 +85,7 @@ var options = {
 }
 
 //Read REST Call
-spListItem.read(listName, options)
+myApp.crud.read(listName, options)
 ```
 ##### Update
 ```
@@ -113,7 +114,7 @@ var options = {
 }
 
 //Update REST Call
-spListItem.update(listName, id, data, options)
+myApp.crud.update(listName, id, data, options)
 ```
 ##### Delete
 ```
@@ -134,7 +135,7 @@ var options = {
 }
 
 //Delete REST Call
-spListItem.delete(listName, id, options)
+myApp.crud.delete(listName, id, options)
 ```
 ## License
 The MIT License (MIT)
