@@ -92,7 +92,7 @@ myApp.crud.read(listName, options)
 //Sharepoint List Name (required)
 var listName = 'List1'
 
-//The id of the item u want to update
+//The id of the item u want to update (required)
 var id = 1
 
 //Ur metadata object (required)
@@ -121,7 +121,7 @@ myApp.crud.update(listName, id, data, options)
 //Sharepoint List Name (required)
 var listName = 'List1'
 
-//The id of the item u want to delete
+//The id of the item u want to delete (required)
 var id = 1
 
 //In the options u can define a success callback and error callback (not required)
