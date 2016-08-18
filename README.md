@@ -30,7 +30,7 @@ The body of ur HTML file should look something like this:
 First u need to create a new SharepointListItemCrud object.
 ```
 var myApp = myApp || {}
-var myApp.crud = new SharepointListItemCrud()
+myApp.crud = new SharepointListItemCrud()
 ```
 
 Now u have access to 4 functions:
