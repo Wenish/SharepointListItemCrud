@@ -137,6 +137,7 @@ var options = {
 //Delete REST Call
 myApp.crud.delete(listName, id, options)
 ```
+
 ## License
 The MIT License (MIT)
 
