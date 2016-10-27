@@ -15,12 +15,6 @@ The body of ur HTML file should look something like this:
     </form>
 
     <!-- Scripts -->
-    <script src="/_layouts/15/core.js"></script>
-    <script src="/_layouts/1033/init.js"></script>
-    <script src="/_layouts/15/MicrosoftAjax.js"></script>
-    <script src="/_layouts/15/sp.core.js"></script>
-    <script src="/_layouts/15/sp.runtime.js"></script>
-    <script src="/_layouts/15/sp.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="sharepointListItemCrud.js"></script>
 </body>
