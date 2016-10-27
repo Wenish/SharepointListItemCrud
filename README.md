@@ -5,7 +5,7 @@ A Sharepoint 2013 Rest API CRUD Class for JavaScript.
 It depends on jQuery
 
 ### Install
-The body of ur HTML file should look something like this:
+The body of ur .aspx file should look something like this:
 
 ```
 <body>
