@@ -1,3 +1,5 @@
+//https://github.com/Wenish/SharepointListItemCrud/blob/master/sharepointListItemCrud.js
+//© Jonas Voland
 var SharepointListItemCrud = function () {}
 SharepointListItemCrud.prototype.create = function (listName, data, options) {
   var options = options || {}
