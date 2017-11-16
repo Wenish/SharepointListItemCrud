@@ -22,7 +22,7 @@ The body of ur .aspx file should look something like this:
 ### Usage
 
 First u need to create a new SharepointListItemCrud object.
-```
+```js
 var app = app || {}
 app.crud = new SharepointListItemCrud()
 ```
