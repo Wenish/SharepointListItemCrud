@@ -7,7 +7,7 @@ It depends on jQuery
 ### Install
 The body of ur .aspx file should look something like this:
 
-```
+```html
 <body>
     <!-- Sharepoint Auth From -->
     <form runat="server">
@@ -28,7 +28,7 @@ app.crud = new SharepointListItemCrud()
 ```
 
 Now u have access to 4 functions:
-```
+```js
 app.crud.create(listName, data, options)
 app.crud.read(listName, options)
 app.crud.update(listName, id, data, options)
@@ -36,7 +36,7 @@ app.crud.delete(listName, id, options)
 ```
 
 ##### Create
-```
+```js
 //Sharepoint List Name (required)
 var listName = 'List1'
 
@@ -62,7 +62,7 @@ var options = {
 app.crud.create(listName, data, options)
 ```
 ##### Read
-```
+```js
 //Sharepoint List Name (required)
 var listName = 'List1'
 
@@ -82,7 +82,7 @@ var options = {
 app.crud.read(listName, options)
 ```
 ##### Update
-```
+```js
 //Sharepoint List Name (required)
 var listName = 'List1'
 
@@ -111,7 +111,7 @@ var options = {
 app.crud.update(listName, id, data, options)
 ```
 ##### Delete
-```
+```js
 //Sharepoint List Name (required)
 var listName = 'List1'
 
